@@ -1,0 +1,86 @@
+
+plugin.tx_sklinklist_pi1 {
+ addLink {
+ 	showLabelField = 0
+ 	BEUser = 1
+	Hidden = 0
+ 	InputSize {
+ 		URL = 50
+ 		Description = 50
+ 		Rating = 5
+ 		Category = 9
+ 		Label = 50
+ 	}
+ }
+ showExpandedTree {
+ 	wrap.in = <div style="margin-left:5px">
+ 	wrap.out = </div>
+ 	elementWrap.in =
+ 	elementWrap.out = <br>
+ }
+
+ showCurrentLayer {
+ 	wrap.in =
+ 	wrap.out =
+ 	elementWrap.in =
+ 	elementWrap.out = <br>
+ }
+	showLinks {
+		tableBorder = 0
+		cellpadding = 2
+		tableAlign = center
+		tableStyle = background-color: silver; font-family: sans-serif;
+		headingStyle = color: white; font-size: smaller; text-align: left; background-color: darkblue;
+		tableContentStyle = background-color: white
+		showHTTP = 0
+		showWWW = 0
+		showLastBackslash = 0
+		cutLinks = 30
+		cutLinksDomain = 10
+		cutLinksAppend = ...
+		viewStyle = 1
+		viewStyle {
+			1 {
+				visible {
+					url = 1
+					domain = 0
+					label = 0
+					description = 1
+					rating = 1
+					edit = 1
+					header = 1
+				}
+				linked {
+					url = 1
+					domain = 0
+					label = 0
+					description = 0
+					rating = 0
+				}
+			}
+			2 {
+				visible {
+					url = 0
+					domain = 1
+					label = 0
+					description = 1
+					rating = 1
+					header = 0
+				}
+				linked {
+					url = 0
+					domain = 1
+					label = 0
+					description = 1
+					rating = 0
+				}
+			}
+		}
+	}
+	linkEditor {
+		groupId = 1
+		beUserEdit = 1
+		editPageId = 103
+		editPageTarget = _BLANK
+	}
+}
