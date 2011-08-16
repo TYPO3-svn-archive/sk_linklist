@@ -1,0 +1,80 @@
+a:8:{s:4:"save";a:2:{s:13:"extension_key";s:11:"sk_linklist";s:18:"print_wop_comments";s:1:"0";}s:9:"languages";a:1:{i:1;a:19:{s:2:"dk";s:1:"0";s:2:"de";s:1:"1";s:2:"no";s:1:"0";s:2:"it";s:1:"0";s:2:"fr";s:1:"0";s:2:"es";s:1:"0";s:2:"nl";s:1:"0";s:2:"cz";s:1:"0";s:2:"pl";s:1:"0";s:2:"si";s:1:"0";s:2:"fi";s:1:"0";s:2:"tr";s:1:"0";s:2:"se";s:1:"0";s:2:"pt";s:1:"0";s:2:"ru";s:1:"0";s:2:"ro";s:1:"0";s:2:"ch";s:1:"0";s:2:"sk";s:1:"0";s:2:"lt";s:1:"0";}}s:6:"emconf";a:1:{i:1;a:7:{s:5:"title";s:8:"Linklist";s:11:"description";s:27:"Linklist with subcategories";s:8:"category";s:6:"plugin";s:5:"state";s:4:"beta";s:12:"dependencies";s:12:"cms,lz_table";s:6:"author";s:19:"Sebastian Kurfuerst";s:12:"author_email";s:26:"sebastian@garbage-group.de";}}s:6:"tables";a:2:{i:1;a:18:{s:9:"tablename";s:10:"categories";s:5:"title";s:13:"Link category";s:8:"title_de";s:13:"Linkkategorie";s:11:"add_deleted";s:1:"0";s:10:"add_hidden";s:1:"1";s:13:"add_starttime";s:1:"0";s:11:"add_endtime";s:1:"0";s:10:"add_access";s:1:"1";s:7:"sorting";s:1:"0";s:13:"sorting_field";s:6:"crdate";s:12:"sorting_desc";s:1:"0";s:10:"type_field";s:1:"0";s:12:"header_field";s:8:"category";s:7:"defIcon";s:11:"default.gif";s:14:"allow_on_pages";s:1:"0";s:23:"allow_ce_insert_records";s:1:"0";s:12:"save_and_new";s:1:"1";s:6:"fields";a:2:{i:1;a:10:{s:9:"fieldname";s:8:"category";s:5:"title";s:8:"Category";s:8:"title_de";s:9:"Kategorie";s:4:"type";s:5:"input";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:9:"conf_size";s:0:"";s:8:"conf_max";s:0:"";s:13:"conf_required";s:1:"1";s:12:"conf_varchar";s:1:"0";}i:2;a:15:{s:9:"fieldname";s:11:"subcategory";s:5:"title";s:14:"Subcategory of";s:8:"title_de";s:18:"Unterkategorie von";s:4:"type";s:3:"rel";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:14:"conf_rel_table";s:24:"tx_sklinklist_categories";s:13:"conf_rel_type";s:10:"select_cur";s:18:"conf_rel_dummyitem";s:1:"1";s:14:"conf_relations";s:1:"1";s:22:"conf_relations_selsize";s:1:"1";s:17:"conf_relations_mm";s:1:"0";s:15:"conf_wiz_addrec";s:1:"0";s:16:"conf_wiz_listrec";s:1:"0";s:16:"conf_wiz_editrec";s:1:"0";}}}i:2;a:18:{s:9:"tablename";s:5:"links";s:5:"title";s:5:"Links";s:8:"title_de";s:5:"Links";s:11:"add_deleted";s:1:"0";s:10:"add_hidden";s:1:"1";s:13:"add_starttime";s:1:"0";s:11:"add_endtime";s:1:"0";s:10:"add_access";s:1:"0";s:7:"sorting";s:1:"0";s:13:"sorting_field";s:3:"url";s:12:"sorting_desc";s:1:"0";s:10:"type_field";s:1:"0";s:12:"header_field";s:3:"url";s:7:"defIcon";s:11:"default.gif";s:14:"allow_on_pages";s:1:"0";s:23:"allow_ce_insert_records";s:1:"0";s:12:"save_and_new";s:1:"1";s:6:"fields";a:5:{i:1;a:6:{s:9:"fieldname";s:3:"url";s:5:"title";s:3:"URL";s:8:"title_de";s:3:"URL";s:4:"type";s:4:"link";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";}i:2;a:10:{s:9:"fieldname";s:11:"description";s:5:"title";s:11:"Description";s:8:"title_de";s:12:"Beschreibung";s:4:"type";s:5:"input";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:9:"conf_size";s:0:"";s:8:"conf_max";s:0:"";s:13:"conf_required";s:1:"0";s:12:"conf_varchar";s:1:"0";}i:5;a:10:{s:9:"fieldname";s:5:"label";s:5:"title";s:5:"label";s:8:"title_de";s:5:"Label";s:4:"type";s:5:"input";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:9:"conf_size";s:0:"";s:8:"conf_max";s:0:"";s:13:"conf_required";s:1:"0";s:12:"conf_varchar";s:1:"0";}i:4;a:15:{s:9:"fieldname";s:8:"category";s:5:"title";s:8:"Category";s:8:"title_de";s:9:"Kategorie";s:4:"type";s:3:"rel";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:14:"conf_rel_table";s:24:"tx_sklinklist_categories";s:13:"conf_rel_type";s:10:"select_cur";s:18:"conf_rel_dummyitem";s:1:"1";s:14:"conf_relations";s:1:"5";s:22:"conf_relations_selsize";s:1:"5";s:17:"conf_relations_mm";s:1:"0";s:15:"conf_wiz_addrec";s:1:"0";s:16:"conf_wiz_listrec";s:1:"0";s:16:"conf_wiz_editrec";s:1:"0";}i:3;a:10:{s:9:"fieldname";s:6:"rating";s:5:"title";s:6:"Rating";s:8:"title_de";s:9:"Bewertung";s:4:"type";s:5:"input";s:12:"excludeField";s:1:"0";s:7:"_DELETE";s:1:"0";s:9:"conf_size";s:0:"";s:8:"conf_max";s:0:"";s:13:"conf_required";s:1:"0";s:12:"conf_varchar";s:1:"0";}}}}s:2:"pi";a:1:{i:1;a:13:{s:5:"title";s:9:"Link list";s:8:"title_de";s:9:"Linkliste";s:13:"plus_user_obj";s:1:"0";s:7:"addType";s:9:"list_type";s:8:"plus_wiz";s:1:"1";s:20:"plus_wiz_description";s:27:"Adds a linklist to the page";s:23:"plus_wiz_description_de";s:35:"Fügt eine Linkliste der Seite hinzu";s:12:"list_default";s:1:"0";s:21:"list_default_listmode";s:1:"0";s:23:"list_default_singlemode";s:1:"0";s:8:"tag_name";s:0:"";s:12:"plus_user_ex";s:1:"0";s:14:"apply_extended";s:1:"1";}}s:6:"module";a:0:{}s:6:"fields";a:1:{i:1;a:3:{s:11:"which_table";s:10:"tt_content";s:5:"title";s:20:"Content (tt_content)";s:6:"fields";a:1:{i:1;a:30:{s:9:"fieldname";s:4:"view";s:5:"title";s:29:"Which view should I use here?";s:8:"title_de";s:39:"Welche Ansicht soll dargestellt werden?";s:4:"type";s:6:"select";s:12:"excludeField";s:1:"1";s:7:"_DELETE";s:1:"0";s:18:"conf_select_item_0";s:21:"output only the links";s:21:"conf_select_item_0_de";s:18:"nur Links ausgeben";s:23:"conf_select_itemvalue_0";s:1:"0";s:18:"conf_select_item_1";s:42:"output the complete tree which is expanded";s:21:"conf_select_item_1_de";s:36:"komplett ausgeklappten Baum ausgeben";s:23:"conf_select_itemvalue_1";s:1:"1";s:18:"conf_select_item_2";s:46:"output only the actual layer to view sublayers";s:21:"conf_select_item_2_de";s:56:"nur aktuelle Ebene ausgeben, um Unterkategorien zu sehen";s:23:"conf_select_itemvalue_2";s:1:"2";s:18:"conf_select_item_3";s:24:"output link search field";s:21:"conf_select_item_3_de";s:17:"Suchfeld ausgeben";s:23:"conf_select_itemvalue_3";s:1:"3";s:17:"conf_select_items";s:1:"7";s:17:"conf_select_icons";s:1:"0";s:15:"conf_select_pro";s:1:"0";s:18:"conf_select_item_4";s:31:"output insert of new links mask";s:21:"conf_select_item_4_de";s:30:"Maske zum Eingeben neuer Links";s:23:"conf_select_itemvalue_4";s:1:"4";s:18:"conf_select_item_5";s:22:"output edit links mask";s:21:"conf_select_item_5_de";s:46:"Eingabefelder zum Editieren von Links ausgeben";s:23:"conf_select_itemvalue_5";s:1:"5";s:18:"conf_select_item_6";s:22:"output category editor";s:21:"conf_select_item_6_de";s:24:"Kategoeieeditor ausgeben";s:23:"conf_select_itemvalue_6";s:1:"6";}}}}s:2:"ts";a:1:{i:1;a:2:{s:9:"constants";s:0:"";s:5:"setup";s:1386:"plugin.tx_sklinklist_pi1 {
+ addLink {
+ 	BEUser = 1
+		Hidden = 0
+ 	InputSize {
+ 		URL = 50
+ 		Description = 50
+ 		Rating = 5
+ 		Category = 9
+ 	}
+ }
+ showExpandedTree {
+ 	wrap.in = <div style="margin-left:5px">
+ 	wrap.out = </div>
+ 	elementWrap.in =
+ 	elementWrap.out = <br>
+ }
+
+ showCurrentLayer {
+ 	wrap.in =
+ 	wrap.out =
+ 	elementWrap.in =
+ 	elementWrap.out = <br>
+ }
+	showLinks {
+		tableBorder = 0
+		cellpadding = 2
+		tableAlign = center
+		tableStyle = background-color: silver; font-family: sans-serif;
+		headingStyle = color: white; font-size: smaller; text-align: left; background-color: darkblue;
+		tableContentStyle = background-color: white
+		showHTTP = 0
+		showWWW = 0
+		showLastBackslash = 0
+		cutLinks = 30
+		cutLinksDomain = 10
+		cutLinksAppend = ...
+		viewStyle = 1
+		viewStyle {
+			1 {
+				visible {
+					url = 1
+					domain = 0
+					description = 1
+					rating = 1
+					edit = 1
+					header = 1
+				}
+				linked {
+					url = 1
+					domain = 0
+					description = 0
+					rating = 0
+				}
+			}
+			2 {
+				visible {
+					url = 0
+					domain = 1
+					description = 1
+					rating = 1
+					header = 0
+				}
+				linked {
+					url = 0
+					domain = 1
+					description = 1
+					rating = 0
+				}
+			}
+		}
+	}
+	linkEditor {
+		groupId = 1
+		beUserEdit = 1
+		editPageId = 103
+		editPageTarget = _BLANK
+	}
+}
+";}}}
