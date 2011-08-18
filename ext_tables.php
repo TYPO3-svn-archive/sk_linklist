@@ -3,17 +3,17 @@ if (!defined ("TYPO3_MODE")) 	die ("Access denied.");
 $tempColumns = Array (
 	"tx_sklinklist_view" => Array (		
 		"exclude" => 1,		
-		"label" => "LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view",		
+		"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view",		
 		"config" => Array (
 			"type" => "select",
 			"items" => Array (
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.0", "0"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.1", "1"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.2", "2"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.3", "3"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.4", "4"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.5", "5"),
-				Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.tx_sklinklist_view.I.6", "6"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.0", "0"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.1", "1"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.2", "2"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.3", "3"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.4", "4"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.5", "5"),
+				Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.tx_sklinklist_view.I.6", "6"),
 			),
 		)
 	),
@@ -25,7 +25,7 @@ t3lib_extMgm::addTCAcolumns("tt_content",$tempColumns,1);
 
 $TCA["tx_sklinklist_categories"] = Array (
 	"ctrl" => Array (
-		"title" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_categories",		
+		"title" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_categories",		
 		"label" => "category",	
 		"tstamp" => "tstamp",
 		"crdate" => "crdate",
@@ -45,7 +45,7 @@ $TCA["tx_sklinklist_categories"] = Array (
 
 $TCA["tx_sklinklist_links"] = Array (
 	"ctrl" => Array (
-		"title" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links",		
+		"title" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links",		
 		"label" => "url",	
 		"tstamp" => "tstamp",
 		"crdate" => "crdate",
@@ -68,7 +68,7 @@ $TCA["tt_content"]["types"]["list"]["subtypes_excludelist"][$_EXTKEY."_pi1"]="la
 $TCA["tt_content"]["types"]["list"]["subtypes_addlist"][$_EXTKEY."_pi1"]="tx_sklinklist_view;;;;1-1-1";
 
 
-t3lib_extMgm::addPlugin(Array("LLL:EXT:sk_linklist/locallang_db.php:tt_content.list_type", $_EXTKEY."_pi1"),"list_type");
+t3lib_extMgm::addPlugin(Array("LLL:EXT:sk_linklist/locallang_db.xml:tt_content.list_type", $_EXTKEY."_pi1"),"list_type");
 
 
 if (TYPO3_MODE=="BE")	$TBE_MODULES_EXT["xMOD_db_new_content_el"]["addElClasses"]["tx_sklinklist_pi1_wizicon"] = t3lib_extMgm::extPath($_EXTKEY)."pi1/class.tx_sklinklist_pi1_wizicon.php";
