@@ -229,7 +229,7 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 	 */
 	function search()	{
 		$out = '';
-		$out .= $this->pi_getLL('search') . '<form id="tx_sklinklist_searchLink" action="' . $this->pi_getPageLink($GLOBALS['TSFE']->id) . '?' . $this->prefixId . '[dummy]=' . time() . '" method="post">
+		$out .= $this->pi_getLL('search') . '<form id="tx_sklinklist_searchLink" action="' . $this->pi_getPageLink($GLOBALS['TSFE']->id) . '&' . $this->prefixId . '[dummy]=' . time() . '" method="post">
 			<input name="' . $this->prefixId . '[search]" type="text"><input type="submit" value="' . $this->pi_getLL('submit') . '"></form>';
 		$this->piVars['search'] = strip_tags($this->piVars['search']);
 		if (!empty($this->piVars['search'])) {
