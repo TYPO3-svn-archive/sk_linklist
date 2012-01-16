@@ -32,7 +32,7 @@ $TCA["tx_sklinklist_categories"] = Array (
 		),
 		"category" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_categories.category",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_categories.category",		
 			"config" => Array (
 				"type" => "input",	
 				"size" => "30",	
@@ -41,7 +41,7 @@ $TCA["tx_sklinklist_categories"] = Array (
 		),
 		"subcategory" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_categories.subcategory",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_categories.subcategory",		
 			"config" => Array (
 				"type" => "select",	
 				"items" => Array (
@@ -82,7 +82,7 @@ $TCA["tx_sklinklist_links"] = Array (
 		),
 		"url" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links.url",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links.url",		
 			"config" => Array (
 				"type" => "input",		
 				"size" => "15",
@@ -103,7 +103,7 @@ $TCA["tx_sklinklist_links"] = Array (
 		),
 		"description" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links.description",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links.description",		
 			"config" => Array (
 				"type" => "input",	
 				"size" => "30",
@@ -111,7 +111,7 @@ $TCA["tx_sklinklist_links"] = Array (
 		),
 		"label" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links.label",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links.label",		
 			"config" => Array (
 				"type" => "input",	
 				"size" => "30",
@@ -119,7 +119,7 @@ $TCA["tx_sklinklist_links"] = Array (
 		),
 		"category" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links.category",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links.category",		
 			"config" => Array (
 				"type" => "select",	
 				"foreign_table" => "tx_sklinklist_categories",	
@@ -131,7 +131,7 @@ $TCA["tx_sklinklist_links"] = Array (
 		),
 		"rating" => Array (		
 			"exclude" => 0,		
-			"label" => "LLL:EXT:sk_linklist/locallang_db.php:tx_sklinklist_links.rating",		
+			"label" => "LLL:EXT:sk_linklist/locallang_db.xml:tx_sklinklist_links.rating",		
 			"config" => Array (
 				"type" => "input",	
 				"size" => "30",
