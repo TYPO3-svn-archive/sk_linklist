@@ -26,16 +26,17 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => 'tt_content',
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
-	'author' => 'Sebastian Kurfuerst',
-	'author_email' => 'sebastian@garbage-group.de',
-	'author_company' => 'sponsored by 3m5 Dresden',
+	'author' => 'Heiko Westermann / Sebastian Kurfuerst',
+	'author_email' => 'hwt3@gmx.de / sebastian@garbage-group.de',
+	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'version' => '0.7.4',
+	'version' => '0.8.8',
 	'constraints' => array(
 		'depends' => array(
 			'php' => '3.0.0-0.0.0',
 			'typo3' => '3.5.0-0.0.0',
+			'lz_table' => '',
 		),
 		'conflicts' => array(
 		),
