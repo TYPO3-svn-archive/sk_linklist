@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sk_linklist'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">output only the links</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">output the complete tree which is expanded</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">output only the actual layer to view sublayers</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">output link search field</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">output insert of new links mask</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">output edit links mask</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">output category editor</label>
+			<label index="tt_content.tx_sklinklist_view">Which view should I use here?</label>
+			<label index="tx_sklinklist_categories">Link category</label>
+			<label index="tx_sklinklist_categories.category">Category</label>
+			<label index="tx_sklinklist_categories.subcategory">Subcategory of</label>
+			<label index="tx_sklinklist_links">Links</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Description</label>
+			<label index="tx_sklinklist_links.label">label</label>
+			<label index="tx_sklinklist_links.category">Category</label>
+			<label index="tx_sklinklist_links.rating">Rating</label>
+			<label index="tt_content.list_type">Link list</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">nur Links ausgeben</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">komplett ausgeklappten Baum ausgeben</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">nur aktuelle Ebene ausgeben, um Unterkategorien zu sehen</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">Suchfeld ausgeben</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">Maske zum Eingeben neuer Links</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">Eingabefelder zum Editieren von Links ausgeben</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">Kategoeieeditor ausgeben</label>
+			<label index="tt_content.tx_sklinklist_view">Welche Ansicht soll dargestellt werden?</label>
+			<label index="tx_sklinklist_categories">Linkkategorie</label>
+			<label index="tx_sklinklist_categories.category">Kategorie</label>
+			<label index="tx_sklinklist_categories.subcategory">Unterkategorie von</label>
+			<label index="tx_sklinklist_links">Links</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Beschreibung</label>
+			<label index="tx_sklinklist_links.label">Label</label>
+			<label index="tx_sklinklist_links.category">Kategorie</label>
+			<label index="tx_sklinklist_links.rating">Bewertung</label>
+			<label index="tt_content.list_type">Linkliste</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">mostra solo i link</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">mostra l\'albero completo</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">mostra solo il livello corrente</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">mostra il box per la ricerca</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">mostra la maschera per l\'inserimento di nuovi link</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">mostra la maschera per la modifica dei link</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">mostra l\'editor delle categorie</label>
+			<label index="tt_content.tx_sklinklist_view">Cosa deve essere visualizzato?</label>
+			<label index="tx_sklinklist_categories">Categoria link</label>
+			<label index="tx_sklinklist_categories.category">Categoria</label>
+			<label index="tx_sklinklist_categories.subcategory">Sottocategoria di</label>
+			<label index="tx_sklinklist_links">Link</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Descrizione</label>
+			<label index="tx_sklinklist_links.label">etichetta</label>
+			<label index="tx_sklinklist_links.category">Categoria</label>
+			<label index="tx_sklinklist_links.rating">Voto</label>
+			<label index="tt_content.list_type">Elenco link</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+		</languageKey>
+		<languageKey index="cz" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">pouze linky</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">kompletní rozbalený strom</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">pouze aktuální vrstvu pro náhled podøízených</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">pole hledání linku</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">masku vložení nového linku</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">masku úpravy linku</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">editor kategorií</label>
+			<label index="tt_content.tx_sklinklist_view">Jaký pøehled mám zde použít?</label>
+			<label index="tx_sklinklist_categories">Kategorie linku</label>
+			<label index="tx_sklinklist_categories.category">Kategorie</label>
+			<label index="tx_sklinklist_categories.subcategory">Podkategorie</label>
+			<label index="tx_sklinklist_links">Linky</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Popis</label>
+			<label index="tx_sklinklist_links.label">jmenovka</label>
+			<label index="tx_sklinklist_links.category">Kategorie</label>
+			<label index="tx_sklinklist_links.rating">Hodnocení</label>
+			<label index="tt_content.list_type">Seznam linkù</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">tilosta ainoastaan linkit</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">tulosta koko puurakenne laajennettuna</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">tulosta ainoastaan haluttu taso nähdäksesi alatasot</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">tulosta linkin hakukenttä</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">tulosta linkin lisäysmaski</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">tulosta linkin muokkausmaski</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">tulosta luokan muokkaus</label>
+			<label index="tt_content.tx_sklinklist_view">Mitä luokkaa tässä käytetään</label>
+			<label index="tx_sklinklist_categories">Linkin luokka</label>
+			<label index="tx_sklinklist_categories.category">Luokka</label>
+			<label index="tx_sklinklist_categories.subcategory">Alaluokka</label>
+			<label index="tx_sklinklist_links">Linkit</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Kuvaus</label>
+			<label index="tx_sklinklist_links.label">tunnus</label>
+			<label index="tx_sklinklist_links.category">Luokka</label>
+			<label index="tx_sklinklist_links.rating">Luokittelu</label>
+			<label index="tt_content.list_type">Linkkilista</label>
+		</languageKey>
+		<languageKey index="tr" type="array">
+		</languageKey>
+		<languageKey index="se" type="array">
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+		<languageKey index="is" type="array">
+		</languageKey>
+		<languageKey index="hr" type="array">
+		</languageKey>
+		<languageKey index="hu" type="array">
+		</languageKey>
+		<languageKey index="gl" type="array">
+		</languageKey>
+		<languageKey index="th" type="array">
+		</languageKey>
+		<languageKey index="gr" type="array">
+		</languageKey>
+		<languageKey index="hk" type="array">
+		</languageKey>
+		<languageKey index="eu" type="array">
+		</languageKey>
+		<languageKey index="bg" type="array">
+		</languageKey>
+		<languageKey index="br" type="array">
+			<label index="tt_content.tx_sklinklist_view.I.0">exibir apenas os links</label>
+			<label index="tt_content.tx_sklinklist_view.I.1">exibir a árvore completa, expandida</label>
+			<label index="tt_content.tx_sklinklist_view.I.2">exibir apenas a camada atual para ver subcamadas</label>
+			<label index="tt_content.tx_sklinklist_view.I.3">exibir o campo de busca de links</label>
+			<label index="tt_content.tx_sklinklist_view.I.4">exibir a máscara de inserção de novos links</label>
+			<label index="tt_content.tx_sklinklist_view.I.5">exibir a máscara para edição de links</label>
+			<label index="tt_content.tx_sklinklist_view.I.6">exibir o editor de categorias</label>
+			<label index="tt_content.tx_sklinklist_view">Qual modo de exibição devo usar aqui?</label>
+			<label index="tx_sklinklist_categories">Categoria de links</label>
+			<label index="tx_sklinklist_categories.category">Categoria</label>
+			<label index="tx_sklinklist_categories.subcategory">Subcategoria de</label>
+			<label index="tx_sklinklist_links">Links</label>
+			<label index="tx_sklinklist_links.url">URL</label>
+			<label index="tx_sklinklist_links.description">Descrição</label>
+			<label index="tx_sklinklist_links.label">rótulo</label>
+			<label index="tx_sklinklist_links.category">Categoria</label>
+			<label index="tx_sklinklist_links.rating">Classificação</label>
+			<label index="tt_content.list_type">Lista de links</label>
+		</languageKey>
+		<languageKey index="et" type="array">
+		</languageKey>
+		<languageKey index="ar" type="array">
+		</languageKey>
+		<languageKey index="he" type="array">
+		</languageKey>
+		<languageKey index="ua" type="array">
+		</languageKey>
+		<languageKey index="lv" type="array">
+		</languageKey>
+		<languageKey index="jp" type="array">
+		</languageKey>
+		<languageKey index="vn" type="array">
+		</languageKey>
+		<languageKey index="ca" type="array">
+		</languageKey>
+		<languageKey index="ba" type="array">
+		</languageKey>
+		<languageKey index="kr" type="array">
+		</languageKey>
+		<languageKey index="eo" type="array">
+		</languageKey>
+		<languageKey index="my" type="array">
+		</languageKey>
+		<languageKey index="hi" type="array">
+		</languageKey>
+	</data>
+</T3locallang>
