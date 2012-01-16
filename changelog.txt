@@ -1,0 +1,17 @@
+###############################
+#	Changelog 
+###############################
+
+
+## Linklist version 0.8.0 ##
+
+- Update on 16.01.2012 version 0.7.4 -
+Info: Thanks to Sebastian Kurfürs for committing his extension
+Info: New autor for further development: Heiko Westermann <hwt3@gmx.de>
+Task: #29006: code-review:
+Subtask #29087: Removed deprecated code & several security fixes	 
+Subtask #29088: Adapted TYPO3 Coding Guidelines
+Task: #29059: rebuild locallang in xml structure
+Bugfix #29007: broken html at categorytree output
+
+
