@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>language labels for sk_linklist FE plugin</description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<fileId>EXT:sk_linklist/pi/locallang.xml</fileId>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Description</label>
+			<label index="rating">Rating</label>
+			<label index="cat">Category</label>
+			<label index="submit">Submit</label>
+			<label index="search">Search</label>
+			<label index="error_url_duplicate">URL is already inside!</label>
+			<label index="error_notfound">I didn\'t find any link matching your query!</label>
+			<label index="layerUp">Go one layer up</label>
+			<label index="domain">Domain</label>
+			<label index="edit">edit</label>
+			<label index="label">label</label>
+			<label index="insert_successful">Link was inserted successfully</label>
+			<label index="update_successful">Link was updated successfully</label>
+			<label index="update_error">Link couldn't be updated!</label>
+			<label index="error_editLinkId">Invalid Link-Id! Link wasn't updated</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Beschreibung</label>
+			<label index="rating">Bewertung</label>
+			<label index="cat">Kategorie</label>
+			<label index="submit">Abschicken</label>
+			<label index="search">Suche</label>
+			<label index="error_url_duplicate">URL ist schon in der Datenbank!</label>
+			<label index="error_notfound">Leider nichts gefunden!</label>
+			<label index="layerUp">Eine Ebene nach oben gehen</label>
+			<label index="domain">Domain</label>
+			<label index="edit">Bearbeiten</label>
+			<label index="label">Kurzbeschreibung</label>
+			<label index="insert_successful">Link wurde erfolgreich eingetragen!</label>
+			<label index="update_successful">Link wurde erfolgreich geupdated!</label>
+			<label index="update_error">Link konnte nicht geupdated werden!</label>
+			<label index="error_editLinkId">Ungültige Link-Id! Link wurde nicht geupdated!</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Descrizione</label>
+			<label index="rating">Voto</label>
+			<label index="cat">Categoria</label>
+			<label index="submit">Invia</label>
+			<label index="search">Cerca</label>
+			<label index="error_url_duplicate">L\'URL indicato è già stato inserito in precedenza!</label>
+			<label index="error_notfound">Nessun link soddisfa i tuoi criteri di ricerca</label>
+			<label index="layerUp">Vai al livello superiore</label>
+			<label index="domain">Dominio</label>
+			<label index="edit">modifica</label>
+			<label index="label">etichetta</label>
+			<label index="insert_successful">Link inserito correttamente</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+		</languageKey>
+		<languageKey index="cz" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Popis</label>
+			<label index="rating">Hodnocení</label>
+			<label index="cat">Category</label>
+			<label index="submit">Odeslat</label>
+			<label index="search">Hledat</label>
+			<label index="error_url_duplicate">URL je již zadán!</label>
+			<label index="error_notfound">Nenalezen žádný link odpovídající vašemu dotazu!</label>
+			<label index="layerUp">Jdi o úroveò zpìt</label>
+			<label index="domain">Doména</label>
+			<label index="edit">upravit</label>
+			<label index="label">jmenovka</label>
+			<label index="insert_successful">Link byl úspìšnì vložen</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Kuvaus</label>
+			<label index="rating">Luokitus</label>
+			<label index="cat">Luokka</label>
+			<label index="submit">Tallenna</label>
+			<label index="search">Etsi</label>
+			<label index="error_url_duplicate">URL on jo tallessa!</label>
+			<label index="error_notfound">Haettua linkkiä ei löytynyt!</label>
+			<label index="layerUp">Siirry kerros ylöspäin</label>
+			<label index="domain">Domain</label>
+			<label index="edit">muokkaa</label>
+			<label index="label">tunnus</label>
+			<label index="insert_successful">Linkki lisättiin onnistuneesti</label>
+		</languageKey>
+		<languageKey index="tr" type="array">
+		</languageKey>
+		<languageKey index="se" type="array">
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+		<languageKey index="is" type="array">
+		</languageKey>
+		<languageKey index="hr" type="array">
+		</languageKey>
+		<languageKey index="hu" type="array">
+		</languageKey>
+		<languageKey index="gl" type="array">
+		</languageKey>
+		<languageKey index="th" type="array">
+		</languageKey>
+		<languageKey index="gr" type="array">
+		</languageKey>
+		<languageKey index="hk" type="array">
+		</languageKey>
+		<languageKey index="eu" type="array">
+		</languageKey>
+		<languageKey index="bg" type="array">
+		</languageKey>
+		<languageKey index="br" type="array">
+			<label index="url">URL</label>
+			<label index="desc">Descrição</label>
+			<label index="rating">Classificação</label>
+			<label index="cat">Categoria</label>
+			<label index="submit">Enviar</label>
+			<label index="search">Pesquisar</label>
+			<label index="error_url_duplicate">A URL já está na lista!</label>
+			<label index="error_notfound">Eu não encontrei nenhum link batendo com a sua busca!</label>
+			<label index="layerUp">Ir para uma camada acima</label>
+			<label index="domain">Domínio</label>
+			<label index="edit">editar</label>
+			<label index="label">rótulo</label>
+			<label index="insert_successful">O link foi incluído com sucesso</label>
+		</languageKey>
+		<languageKey index="et" type="array">
+		</languageKey>
+		<languageKey index="ar" type="array">
+		</languageKey>
+		<languageKey index="he" type="array">
+		</languageKey>
+		<languageKey index="ua" type="array">
+		</languageKey>
+		<languageKey index="lv" type="array">
+		</languageKey>
+		<languageKey index="jp" type="array">
+		</languageKey>
+		<languageKey index="vn" type="array">
+		</languageKey>
+		<languageKey index="ca" type="array">
+		</languageKey>
+		<languageKey index="ba" type="array">
+		</languageKey>
+		<languageKey index="kr" type="array">
+		</languageKey>
+		<languageKey index="eo" type="array">
+		</languageKey>
+		<languageKey index="my" type="array">
+		</languageKey>
+		<languageKey index="hi" type="array">
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+	</orig_hash>
+	<orig_text type="array">
+	</orig_text>
+</T3locallang>
