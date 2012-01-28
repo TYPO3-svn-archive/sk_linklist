@@ -229,7 +229,7 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 	 */
 	function search()	{
 		$out = '';
-		$out .= $this->pi_getLL('search') . '<form id="tx_sklinklist_searchLink" action="' . $this->pi_getPageLink($GLOBALS['TSFE']->id) . '&' . $this->prefixId . '[dummy]=' . time() . '" method="post">
+		$out .= $this->pi_getLL('search') . '<form id="tx_sklinklist_searchLink" action="' . $this->pi_getPageLink($GLOBALS['TSFE']->id,'',array($this->prefixId.'[dummy]' => time()))  . '" method="post">
 			<input name="' . $this->prefixId . '[search]" type="text"><input type="submit" value="' . $this->pi_getLL('submit') . '"></form>';
 		$this->piVars['search'] = strip_tags($this->piVars['search']);
 		if (!empty($this->piVars['search'])) {
@@ -461,6 +461,19 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 	* Outputs the links as list
 	*/
 	function link_output($links = 0) {
+		$conf_viewStyle = $this->conf['showLinks.']['viewStyle.'][$this->conf['showLinks.']['viewStyle'].'.'];
+		
+		if ($conf_viewStyle['visible.']['sortby'] == 1) {
+			$sortbyContent = '<p id="linklist-sortby">' . $this->pi_getLL('sortby') . ' ';
+			if ($conf_viewStyle['visible.']['date'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('date'),array('sortby'=>'crdate')) . '</span> ';}
+			if ($conf_viewStyle['visible.']['url'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('url'),array('sortby'=>'url')) . '</span> ';}
+			if ($conf_viewStyle['visible.']['domain'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('domain'),array('sortby'=>'url')) . '</span> ';}
+			if ($conf_viewStyle['visible.']['label'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('label'),array('sortby'=>'label')) . '</span> ';}
+			if ($conf_viewStyle['visible.']['description'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('desc'),array('sortby'=>'description')) . '</span> ';}
+			if ($conf_viewStyle['visible.']['rating'] == 1) {$sortbyContent .= '<span class="linklist-sortoption">' . $this->pi_linkTP_keepPIvars($this->pi_getLL('rating'),array('sortby'=>'rating')) . '</span> ';}
+			$sortbyContent .= '</p>';  
+       		}
+       		
 		$table = t3lib_div::makeInstance('tx_lztable');
 		$category = intval($this->piVars['category']);
 		if (empty($category) || $category == 0)	{
@@ -473,8 +486,11 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 			return '';
 		}
 
-		$conf_viewStyle = $this->conf['showLinks.']['viewStyle.'][$this->conf['showLinks.']['viewStyle'].'.'];
 		$i = 0;
+		if ($conf_viewStyle['visible.']['date'] == 1) {
+			$head[$i] = $this->pi_getLL('date');
+			$i++;
+		}
 		if ($conf_viewStyle['visible.']['url'] == 1) {
 			$head[$i] = $this->pi_getLL('url');
 			$i++;
@@ -546,6 +562,14 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 			}
 
 			$a = 0;
+			if ($conf_viewStyle['visible.']['date'] == 1) {
+				if ($conf_viewStyle['linked.']['date'] == 1) {
+					$row[$a] = '<a href="' . stripslashes($links[$i]['url']) . '" target="_blank">' . date($this->conf['showLinks.']['dateformat'], $links[$i]['crdate']) . '</a>';
+				} else {
+					$row[$a] = date($this->conf['showLinks.']['dateformat'], $links[$i]['crdate']);
+				}
+				$a++;
+			}
 			if ($conf_viewStyle['visible.']['url'] == 1) {
 				if ($conf_viewStyle['linked.']['url'] == 1) {
 					$row[$a] = '<a href="' . stripslashes($links[$i]['url']) . '" target="_blank">' . stripslashes($print_link) . '</a>';
@@ -597,7 +621,7 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 
 			$table->addRow($row);
 		}
-		return $table->getTable();
+		return $sortbyContent . $table->getTable();
 	}
 
 	/**
@@ -621,13 +645,19 @@ class tx_sklinklist_pi1 extends tslib_pibase {
 			$i++;
 			$this->categories_uidKey[$temp['uid']] = 1;
 		}
+		
+		if ($this->piVars['sortby'] != '')	{		
+			$sortby = htmlspecialchars($this->piVars['sortby']);
+		} else {
+			$sortby = htmlspecialchars($this->conf['showLinks.']['defaultsortby']);
+		}
 
 		$res = $GLOBALS['TYPO3_DB']->exec_SELECTquery(
 			'*',
 			'tx_sklinklist_links',
 			'pid='.$this->cObj->data['pages'].$this->cObj->enableFields('tx_sklinklist_links'),
 			'',
-			'url'
+			$sortby
 		);
 
 		$i = 0;
