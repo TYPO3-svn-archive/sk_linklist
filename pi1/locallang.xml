@@ -8,6 +8,7 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
+			<label index="date">Date</label>
 			<label index="url">URL</label>
 			<label index="desc">Description</label>
 			<label index="rating">Rating</label>
@@ -17,6 +18,7 @@
 			<label index="error_url_duplicate">URL is already inside!</label>
 			<label index="error_notfound">I didn\'t find any link matching your query!</label>
 			<label index="layerUp">Go one layer up</label>
+			<label index="sortby">Sort by:</label>
 			<label index="domain">Domain</label>
 			<label index="edit">edit</label>
 			<label index="label">label</label>
@@ -28,6 +30,7 @@
 		<languageKey index="dk" type="array">
 		</languageKey>
 		<languageKey index="de" type="array">
+			<label index="date">Datum</label>
 			<label index="url">URL</label>
 			<label index="desc">Beschreibung</label>
 			<label index="rating">Bewertung</label>
@@ -37,6 +40,7 @@
 			<label index="error_url_duplicate">URL ist schon in der Datenbank!</label>
 			<label index="error_notfound">Leider nichts gefunden!</label>
 			<label index="layerUp">Eine Ebene nach oben gehen</label>
+			<label index="sortby">Sortieren nach:</label>
 			<label index="domain">Domain</label>
 			<label index="edit">Bearbeiten</label>
 			<label index="label">Kurzbeschreibung</label>
