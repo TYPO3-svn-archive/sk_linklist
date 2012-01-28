@@ -2,16 +2,21 @@
 #	Changelog 
 ###############################
 
+### Linklist version 0.9.1 ###
 
-## Linklist version 0.8.0 ##
+- Update on 28.01.2012 from version 0.9.0 -
+Feature #29008: additional sorting options
+Feature #33509: display crdate option
+Bugfix #33267: search form-action link
 
-- Update on 16.01.2012 version 0.7.4 -
-Info: Thanks to Sebastian Kurfürs for committing his extension
+
+### Linklist version 0.9.0 ###
+
+- Update on 16.01.2012 from version 0.7.4 -
+Info: Thanks to Sebastian KurfÃ¼rs for committing his extension
 Info: New autor for further development: Heiko Westermann <hwt3@gmx.de>
 Task: #29006: code-review:
 Subtask #29087: Removed deprecated code & several security fixes	 
 Subtask #29088: Adapted TYPO3 Coding Guidelines
 Task: #29059: rebuild locallang in xml structure
 Bugfix #29007: broken html at categorytree output
-
-
